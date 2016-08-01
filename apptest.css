@@ -1,0 +1,18 @@
+html {height:100%}
+body {background-color:#9facc6; height:100%; margin:0; padding:0; font-size:100%}
+h1 {text-align:center}
+
+.AppBox {display:inline-block; width:150px; height:125px; margin:40px; text-align:center; padding-top:25px}
+.CloseBox {display:inline-block; position:relative; float:right; padding-right:10px; top:-20px; opacity:0.3; cursor:pointer}
+.AdjustRight {position:relative; left:10px}
+.DescriptionBox {display:block; height:95px; margin-left:10px; margin-right:10px; border:2px solid black; border-style:outset; cursor:pointer}
+
+#Container {position:relative; height:auto !important; height:100%; min-height:100%;}
+#Header {background-color:#7da1e8; height:100px; overflow:hidden}
+#Footer {position:absolute; bottom:0; background-color:#7da1e8; width:100%; height:50px}
+
+#Title {text-align:center; padding-top:40px}
+#LoginDiv {position:absolute; top:40px; right:40px; padding:2px; background-color:lightgray; border:2px solid black; border-style:outset; cursor:pointer}
+#SelectDiv {position:relative; float:right; padding-right:50px; padding-top:25px}
+#Application1Note {position:absolute; bottom:100px; padding-left:50px}
+#UpdateFrameDiv {position:absolute; right:0; top:50; opacity:0.2}
